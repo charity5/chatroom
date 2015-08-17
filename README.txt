@@ -1,5 +1,7 @@
 This is a chatroom.
 
+[I'm an inline-style link](https://www.google.com)
+
 1. Programming design and data structure
 This chatroom is implemented using Java, and contains two java files：server.java and client.java. 
 The general design is to use Serversocket to listen the data send from other side, and use Socket with corresponding port number to send the data to the other side. The client side also need a thread to implement both listen data from server and send input words to the server simultaneously. One key point is  to close the socket once the one message has been sent and create the socket again when sending another message, in this way, we can achieve non-persistence connection. 
