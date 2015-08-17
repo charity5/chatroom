@@ -1,6 +1,6 @@
 This is a chatroom.
 
-[I'm an inline-style link](https://www.google.com)
+##[Visit Google!](https://www.google.com)
 
 1. Programming design and data structure
 This chatroom is implemented using Java, and contains two java files：server.java and client.java. 
